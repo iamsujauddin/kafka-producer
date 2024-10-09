@@ -9,7 +9,7 @@ public class KafkaProducerConfig {
 	
 	@Bean
 	public NewTopic createTopic() {
-		return new NewTopic("kafka_demo_new",3,(short) 1);
+		return new NewTopic("kafka_demo_customer",3,(short) 1);
 	}
 
 }
